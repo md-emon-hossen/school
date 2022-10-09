@@ -1,0 +1,397 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 3.5rem;
+    position: fixed;  
+    background:rgb(255, 255, 255);
+    z-index: 100;  
+    width: 100%;
+    box-shadow: 1px 1px 6px 1px #00000073;
+}
+.Ctwo{
+    height:auto; 
+  
+}
+.Cone{
+    height:100%;
+    align-items: center;
+}
+.conteiner{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    display: flex;
+    background:url('../img/logo.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 56px;
+    width: 56px;
+    justify-content: space-between;
+
+
+}
+.divi{
+ float: left;
+
+ align-items: center;
+ width: fit-content;
+ height: 70px;
+ display: flex;
+}
+
+.divii nav ol{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+ 
+}
+
+.main{
+    position: relative;
+    top: 55px;
+    height: auto;
+
+    
+}
+.divii nav ol li{
+    padding:5px;
+    margin: 5px;
+}
+.name{
+    padding-left: 5px;
+}
+.divii nav ol li a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    white-space: pre;
+}
+.mainWrperi{
+    width: 15%;
+    height: auto;
+   
+}
+.mainWrperii{
+    width: 58%;
+    height: auto;
+   
+    margin-top: 0px;
+}
+.mainWrperiii{
+    width: 23%;
+    height: auto;
+}
+.maini{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+    box-shadow: 1px 1px 6px 1px #00000073;
+    
+}
+.mainii{
+    
+    width: 100%;
+    height: auto;
+    margin-top:25px;
+ 
+    
+}
+.mainiii{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+    box-shadow: 1px 1px 6px 1px #00000073;
+    
+}
+.maini h3{
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+} 
+.maini ul{
+    list-style: none;
+    text-align: left;
+}
+.maini ul li{
+    padding:12px 0px 10px 18px;
+}
+.maini ul li:hover{
+    background: rgb(243, 243, 243);
+}
+.searchbar{
+    width: 100%;
+    border-radius:2px;
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px 1px #00000073;
+}
+.trandingToday{
+    background: black;
+    color:#fff;
+    width:fit-content;   
+     height:100%;
+     padding: 6px;
+    display: inline-block;
+    border-top-left-radius:2px;
+    white-space: nowrap;
+    border-bottom-left-radius: 2px;
+}
+.marquee{
+    padding-top: 6px;
+}
+
+.searchbar b{
+color: black;
+}
+.img{
+width: 100%;
+background: url('../img/images.jpeg');
+background-size:cover;
+height: 360px;
+margin-top: 20px;
+
+}
+.mainiiiTitle{
+    background: tomato;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 90%;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-top: 10px!important;
+    margin-right: auto;
+    text-align: center;
+  
+
+}
+.headTImg{
+    background: url('../img/profile.jpg');
+}
+.headTeacherImg{
+ 
+    background-size: cover;
+    box-shadow: 0px 1px 3px -1px black;
+    background-repeat:no-repeat;
+    width: 50%;
+    margin:auto;
+    height: 190px;
+    margin-top: 10px;
+}
+.teacherName{
+    background:rgb(26, 26, 255);
+    color: #fff;
+    border-top-left-radius: 15px;
+    width: 90%;
+    height: 30px;
+    padding-top: 15px;
+    padding: 10px;
+    text-align: center;
+   margin: 10px auto 10px auto;
+    
+    
+}
+.importantsLink{
+    width: 90%;
+    margin: auto;
+}
+.importantsLink ul li{
+    list-style: none;
+    padding: 5px;
+}
+.importantsLink ul li:hover{
+    background: rgb(238, 238, 238);
+}
+.opinion{
+    height: auto;
+    width: 100%;
+    box-shadow: 1px 1px 6px 1px #00000073;
+    margin-top: 20px;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+}
+.profile{
+    height:auto px;
+    width:25%;
+
+
+}
+.one{
+    background: url('../img/IMG_20210912_174608_132-1.jpg');
+}
+.two{
+    background: url('../img/profile.jpg');
+}
+.profileOpiniion{
+    width: 70%;
+    
+}
+.avatar{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+    margin-top: 15px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+.avatarText{
+    text-align: center;
+    padding-top: 10px;
+
+}
+/* .avatarText h3{
+    display: none;
+}
+.avatarText p{
+    display: none;
+} */
+.socialLink{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.speechOfPrisident{
+padding-top: 10px;
+width: fit-content;
+margin-top: 13px;
+color: rgba(29, 29, 233, 0.918);
+}
+.socail{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: tomato;
+}
+.profileOpiniion{
+    padding: 10px 0px 10px 0px;
+    line-height:22px;
+    word-spacing: 7px;
+
+
+}
+.parentF{
+    border: 1px solid rgb(236, 236, 236) ;
+    height:auto;
+    width: 90%;
+    margin: auto;
+    margin-top:30px;
+}
+.prentHead{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+.prentHead div{
+  padding: 10px;
+
+}
+.parentAvatar{
+    background:url('../img/profile.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 38px;
+    width: 38px;
+    border-radius:50% ;
+}
+.parentMesses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.parentMesses div{
+    margin: 10px;
+}
+.PArray{
+    color: tomato;
+    font-weight: 1000;
+
+}
+.threeDot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin: auto;
+    margin-top:60px;
+    margin-bottom:30px ;
+}
+.activeDot{
+    background: rgb(104, 104, 104)!important;
+}
+.threeDot div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(207, 207, 207);
+}
+.websiteSocialLink{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 110px;
+    margin-top: 50px;
+}
+.websiteSocialLink div{ 
+    width: 35px;
+    height: 33px;
+    border-radius:3px;
+}
+.facebook{background: #3B5998;}
+.youtube{background: #C4302B;}
+.tweter{background: #00ACEE;}
+.instagram{background:linear-gradient( to  bottom right,#515BD4 ,#8134AF,#DD2A7B,#FEDA77,#F58529)}
+
+.footer{
+    color: black;
+    background: rgb(255, 255, 255)!important;
+    margin-top: 70px;
+    z-index: 100;
+    width: 100%;
+    height: 45px;
+    box-shadow: 1px 1px 6px 1px #00000073;
+   
+
+    
+}
+.FoterWrper{
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    color: black;
+
+    margin: auto;
+}
